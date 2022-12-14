@@ -1,0 +1,5 @@
+task.register("ini") {
+    doFirst {
+        println "${workspace}"
+    }
+}
