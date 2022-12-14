@@ -1,4 +1,4 @@
-tasks.register("init") {
+tasks.register("init-project") {
     doFirst {
         println "${workspace}"
     }
