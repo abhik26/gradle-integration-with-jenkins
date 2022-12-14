@@ -1,5 +1,5 @@
 tasks.register("init-project") {
     doFirst {
-        println "${workspace}"
+        println "${WORKSPACE}"
     }
 }
