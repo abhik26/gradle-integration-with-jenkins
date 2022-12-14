@@ -1,4 +1,4 @@
-task.register("ini") {
+tasks.register("init") {
     doFirst {
         println "${workspace}"
     }
