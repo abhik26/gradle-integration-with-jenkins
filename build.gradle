@@ -1,5 +1,3 @@
 tasks.register("init-project") {
-    doFirst {
-        println ${WORKSPACE}
-    }
+    println '${personName}'
 }
