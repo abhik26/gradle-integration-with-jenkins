@@ -1,4 +1,5 @@
 tasks.register("init-project") {
     commandLine 'set GRADLE_USER_HOME=${ENV.WORKSPACE}'
     println '${personName}'
+    println '$env.WORKSPACE'
 }
