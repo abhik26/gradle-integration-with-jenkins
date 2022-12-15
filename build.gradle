@@ -1,3 +1,5 @@
+ext.systemProperties = System.properties
+
 tasks.register("init-project") {
     println "${systemProperties.JOB_NAME}"
     println "${systemProperties.WORKSPACE}"
