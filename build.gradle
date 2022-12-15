@@ -1,6 +1,6 @@
 ext.systemProperties = System.properties
 
 tasks.register("init-project") {
-    println "${systemProperties.JOB_NAME}"
-    println "${systemProperties.WORKSPACE}"
+    println System.getenv('JOB_NAME')
+    println System.getenv('WORKSPACE')
 }
